@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Education</title>
+    <link rel="stylesheet" href="resource.css">
+</head>
+<body>
+    <header>
+        <h1>Agriculture Education Portal</h1>
+    </header>
+    
+    <main>
+        <section class="resources">
+            <h1>Educational Resources</h1>
+            <ul>
+                <li><a href="intro.html">Introduction to Agriculture</a></li>
+                <br>
+                <li><a href="#">Crop Management Techniques</a></li>
+                <br>
+                <li><a href="#">Soil Health and Fertilizers</a></li>
+                <br>
+                <li><a href="#">Pest and Disease Control</a></li>
+            </ul>
+        </section>
+        
+        <section class="crop-seasons">
+            <h1>Crop Seasons</h1>
+            <p>Find information about which crops to grow in each season:</p>
+            <select id="seasonSelect">
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+                <option value="Autumn">Autumn</option>
+                <option value="Winter">Winter</option>
+            </select>
+            <div id="cropInfo"></div>
+        </section>
+    </main>
+
+    <script src="resource.js"></script>
+</body>
+</html>

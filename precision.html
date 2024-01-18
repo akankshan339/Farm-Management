@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precision Farming Calculator</title>
+    <link rel="stylesheet" href="precision.css">
+</head>
+<body>
+    <body background="https://media.smallbiztrends.com/2023/09/farm-app2.png">   
+
+    <div class="calculator">
+        <h2>Precision Farming Calculator</h2>
+        <label for="fieldArea">Field Area (in acres):</label>
+        <input type="number" id="fieldArea" placeholder="Enter field area">
+
+        <label for="seedDensity">Seed Density (seeds per acre):</label>
+        <input type="number" id="seedDensity" placeholder="Enter seed density">
+
+        <label for="growthRate">Growth Rate (%):</label>
+        <input type="number" id="growthRate" placeholder="Enter growth rate">
+
+        <button onclick="calculateYield()"> Calculate Yield</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="precision.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTubd25hBC6E9G0YfKaMo-SC-SzOW5MPr30Uw&usqp=CAU");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    }
